@@ -1,0 +1,109 @@
+.vDrop .vClicker,
+.vDrop ul {
+    overflow: hidden;
+    left: 0;
+    position: absolute
+}
+
+.vDrop .vClicker span,
+.vDrop ul li a {
+    white-space: nowrap
+}
+
+
+
+.vDrop select {
+    visibility: hidden
+}
+
+.vDrop a {
+    outline: 0;
+    text-decoration: none;
+    color: #555
+}
+
+.vDrop .vClicker {
+   top: 0;
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    -moz-border-radius-topright: 3px;
+    -moz-border-radius-bottomright: 3px;
+    -moz-border-radius-bottomleft: 3px;
+    -moz-border-radius-topleft: 3px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    padding: 7px 15px 7px 40px;
+       text-align:left;
+    outline: none;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+}
+.vDrop {
+    margin-bottom: 1rem;}
+
+/*.vDrop .vClicker.open {
+    -moz-border-radius-topright: 3px;
+    -moz-border-radius-bottomright: 0;
+    -moz-border-radius-bottomleft: 0;
+    -moz-border-radius-topleft: 3px;
+    -webkit-border-radius: 3px 3px 0 0;
+    border-radius: 3px 3px 0 0
+}*/
+
+/*.vDrop .vClicker.open .vArrow,
+.vDrop .vClicker:hover .vArrow {
+    background-color: #def;
+    border-color: #9be
+}*/
+
+.vDrop .vClicker .vArrow {
+    position: absolute;
+    top: 14px;
+    right: 0;
+    width: 26px;
+    height: 26px;
+    background: url(../img/bottom_arrow.png);
+     background-repeat: no-repeat !important;
+    
+}
+
+.vDrop .vClicker.open .vArrow {
+        background: url(../img/top_arrow.png);
+}
+
+.vDrop ul {
+    display: none;
+    z-index: 1;
+    top: 37px;
+    min-width:100%;
+   
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border: 1px solid #ccc;
+    -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, .15);
+    -moz-box-shadow: 0 2px 5px rgba(0, 0, 0, .15);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .15)
+}
+
+
+
+.vDrop ul li.optgroup~.option a {
+    padding-left: 20px
+}
+
+.vDrop ul li a {
+    display: block;
+    padding: 5px;
+    background: #fff;    text-align: center;
+}
+
+.vDrop ul li a.selected,
+.vDrop ul li a:hover {
+    background: #f64957;
+    color: #fff
+}

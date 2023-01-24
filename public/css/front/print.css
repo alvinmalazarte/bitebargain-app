@@ -1,0 +1,154 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+    .print_wrap{max-width: 600px; margin: 0px auto;      background: #fff;}    
+    .printcontainer{width: 100%; float: left; padding: 69px 0px 0px 0px;}
+    .print_wrap_inner {float: left;width: 100%; background: #fff;     border: 1px solid #000;}
+    .top_header{float: left; width: 98%;/*padding: 0px 10px;*/
+                border-bottom: 1px solid #000; margin: 0px 1%;}
+    .print_logo{float: left; font-size: 20px; text-transform: capitalize;     padding: 10px 0px;}
+    .print_detail{float: right;}
+    .print_detail ul{display: inline-block; float: right} 
+    .print_detail ul li{display:block; width: 100%;} 
+    .print_detail ul li span {
+        float: right;
+        padding-left: 10px;
+    }
+    .left_detail {
+        float: left;
+        padding: 0px 10px;
+        border-bottom: 1px solid #000;
+        width: 56%;}
+    .right_detail {
+        float: left;
+/*        width: 40%; */margin: 24px 0px 0px 0px; border-bottom: 1px solid #000; width: 40%;}
+    .titledetail {
+        font-size: 16px;
+        text-transform: capitalize;}
+    .borderr {
+        display: inline-block;
+        border: 2px dashed;
+        padding: 3px;     font-weight: bold;
+    }
+    .borderrfull {
+/*        font-weight: bold;*/
+        font-size: 12px;
+        color: #000;}
+    .simple_detail {
+        width: 100%;
+        display: inline-block;
+        padding: 2px 0px 3.5px 0px;
+    }
+    .simplee {
+        float: left;
+        width: 100%;
+        font-size: 13px;
+        color: #000;
+        text-transform: capitalize;
+        padding: 0px 0px 2px 0px;}
+    .simple {
+        width: 100%;
+        float: left;
+        padding: 0px 0px 2px 0px;
+        color: #000;
+        font-size: 13px;}
+
+    .table_row {
+
+        display: table;
+        width: 100%;
+        margin-bottom:0px;
+        border-bottom: none;
+        border-right: none;}
+    .table_dcf_wrap {
+        display: table-row;
+        width: 100%;}
+    .td_tabllle {
+
+        color: #333;
+        display: table-cell;
+        font-size: 14px;
+        font-weight: normal;
+        padding: 5px 5px;
+        text-align: center;     border-bottom: 1px solid #000;
+        vertical-align: middle; font-weight: bold;}
+    .td_tablee:last-child{border-right: none;}
+    .tr_tabless {
+        display: table-row;
+        width: 100%;}
+    .td_tablee {
+        color: #333;
+        display: table-cell;
+        font-size: 13px;
+        font-weight: normal;
+        padding: 10px 5px;
+        text-align: center;
+        vertical-align: middle;
+        border-bottom: 1px solid #000;
+        border-right: 1px solid #000;}
+/*    .discount_wrap {
+        width: 100%;
+        display: inline-block;padding: 10px;}*/
+    .discount_wrap {
+        width: 98%;
+        display: inline-block;padding: 10px 0px;}
+    .discount_wrapright {
+        float: right;     width: 30%;}
+    .discount_wrap_left{float: left;     padding: 50px 0px;
+                        font-size: 15px;}
+    .discount_wrapright ul li {
+        display: inline-block;
+        width: 100%;}
+    .discount_wrapright ul li b {    font-weight: bold;
+                                     color: #000;
+                                     text-transform: capitalize;
+                                     font-size: 13px;
+                                     text-align: right;
+                                     float: left;
+                                     width: 50%;}
+    .discount_wrapright ul li span {
+        float: right;}
+    .boldd{font-weight: bold;     font-size: 13px;}
+    .prepaid {
+        float: left;
+/*        width: 100%;*/   width: 96%;
+        border-top: 1px dashed #000;     padding: 10px 10px;}
+    .bold_txt {
+        float: left;
+        font-weight: bold;
+        color: #000;
+        font-size: 17px;
+    }
+    .orderr span {
+        float: right;
+        width: 100%;
+        text-align: right;
+        font-weight: bold;
+        color: #000;
+        font-size: 12px;}
+    .signaturee{width: 100%; float: left;}
+    .signature {
+        float: left;
+        font-size: 14px;
+        color: #000;
+        font-weight: bold;    width: 25%;}
+    .signaturesize {
+        border-bottom: 2px solid #000;
+        float: left;
+        width: 35%;
+        margin: 13px 0px 0px 0px;}
+    .text_wrap {
+        width: 100%;
+        float: left;}
+    .textt{display: inline-block; margin-right: 5px;}
+    .none_border{border: none;}
+    @media (max-width: 767px) {
+        
+        .right_detail {
+	width: 100%;
+}
+.left_detail {
+	width: 100%;
+}
+    }
